@@ -1,10 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./style.scss"; 
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+
+import { Trello } from './Trello';
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Hello,react-webpack</h1>
+    <Trello />
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById('root')
 );
