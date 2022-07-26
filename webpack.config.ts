@@ -1,7 +1,6 @@
-import { Configuration } from "webpack";
 import path from 'path';
 
-const config: Configuration = {
+const config = {
   context: path.join(__dirname, "src"),
   entry: "./index.tsx",
   output: {
@@ -23,9 +22,6 @@ const config: Configuration = {
           },
           {
             loader: "css-loader",
-            options: {
-              sourceMap: false,
-            },
           },
           {
             loader: "sass-loader",

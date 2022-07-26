@@ -1,6 +1,6 @@
 import { v4 as uuid } from 'uuid';
 
-const dumData = [
+const dummyData = [
   {
     id: uuid(),
     title: 'todo now',
@@ -56,3 +56,5 @@ const dumData = [
     ],
   },
 ];
+
+export default dummyData;
