@@ -14,5 +14,6 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "isolatedModules": false,
+    "noImplicitAny": false,
   }
 }
