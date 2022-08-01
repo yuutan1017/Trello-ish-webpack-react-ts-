@@ -1,0 +1,11 @@
+id: unique-id
+title: string型
+task: 配列[id<unique>, title<string>]
+
+
+crud定義
+
+create: titleとtaskを定義
+read: 全て閲覧可能
+update: title, task共に可能
+delete: buttonをクリック
